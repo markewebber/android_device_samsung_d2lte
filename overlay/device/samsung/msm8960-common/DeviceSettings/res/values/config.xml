@@ -2,4 +2,7 @@
 <resources>
     <!-- Device audio defines "Voice Earpiece Extra Gain" mode. -->
     <bool name="config_hasVocEpXgain">true</bool>
+
+    <!-- Vibrator Tuning -->
+    <string name="vibrator_sysfs_file">"/sys/class/timed_output/vibrator/pwm_value"</string>
 </resources>
