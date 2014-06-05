@@ -33,6 +33,9 @@ BOARD_MKBOOTIMG_ARGS        := --ramdisk_offset 0x01300000
 BOARD_KERNEL_PAGESIZE       := 2048
 TARGET_KERNEL_CONFIG        := schism-d2_defconfig
 
+# linaro
+TARGET_KERNEL_CUSTOM_LINARO_TOOLCHAIN := linaro-4.7-13.04/bin/arm-linux-gnueabihf-
+
 TARGET_BOOTLOADER_BOARD_NAME := MSM8960
 
 # WiFi module
