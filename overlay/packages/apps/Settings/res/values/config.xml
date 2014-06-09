@@ -17,4 +17,17 @@
 <resources>
     <!-- Volume Rocker Wake -->
     <bool name="config_show_volumeRockerWake">true</bool>
+
+    <!-- Home Button Wake -->
+    <!-- <bool name="config_show_homeWake">true</bool> -->
+
+    <!-- Whether device has hardware buttons -->
+    <bool name="config_has_hardware_buttons">true</bool> 
+
+    <!-- Expanded Desktop -->
+    <bool name="config_show_expandedDesktop">true</bool>
+
+    <!-- LED Flashlight -->
+    <bool name="has_led_flash">true</bool>
+
 </resources>
